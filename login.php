@@ -59,14 +59,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             background: #fff;
         }
 
-        /* Left image panel */
         .left-panel {
             flex: 1;
             background: url('anangFun.jpg') no-repeat center center;
             background-size: cover;
         }
 
-        /* Right form panel */
         .right-panel {
             flex: 1;
             padding: 50px;
