@@ -13,7 +13,6 @@ if (ini_get("session.use_cookies")) {
     );
 }
 
-// Hancurkan sesi
 session_destroy();
 
 // Redirect ke halaman login
